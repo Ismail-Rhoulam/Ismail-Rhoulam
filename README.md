@@ -1,3 +1,8 @@
+<div align="center"> 
+  <p>Visitor count</p>
+  <img src="https://profile-counter.glitch.me/Ismail-Rhoulam/count.svg" alt="Visitor's Count" />
+</div>
+
 # 💫 About Me:
 🔭 I’m currently working on pursuing a dual path in Digital Management and Marketing & E-commerce at FSJES SOUISSI Rabat, focusing on innovative online marketing strategies and the impact of social media on business growth.<br>👯 I’m looking to collaborate on projects that leverage my expertise in Python, Jupyter Notebooks, MySQL, and Power BI, particularly in data-driven marketing and insightful business analytics.<br>🤝 I’m seeking guidance and collaboration in advanced data science topics, specifically in Natural Language Processing and AWS, to enhance my capabilities as a data science student at ALX Morocco.<br>🌱 I’m currently deepening my knowledge in data science, focusing on Python programming, SQL database management, and mastering data visualization techniques to derive actionable insights.<br>💬 Feel free to ask about my diverse experience at DECATHLON Mohammedia, where I thrived in roles encompassing digital marketing, event management, and enhancing customer experiences in the retail sector.<br>⚡ Fun fact I'm an avid adventurer who loves to explore new cultures and cuisines. My travels have not only expanded my horizons but also greatly influenced my approach to marketing and customer engagement
 
