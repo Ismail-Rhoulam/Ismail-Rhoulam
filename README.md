@@ -1,10 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/Ismail-Rhoulam">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Ismail%20Rhoulam&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Growth%20%E2%80%A2%20Data%20%E2%80%A2%20Creative&descAlignY=58&descSize=18" alt="header"/>
-</a>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Growth+marketer+%26+data+tinkerer;Turning+small+ideas+into+useful+web+tools;A%2FB+tests%2C+funnels%2C+dashboards;Designing+at+the+intersection+of+data+%26+art)](https://git.io/typing-svg)
+<img src="./assets/dark.svg" width="1180" alt="Ismail Rhoulam — growth, data and creative developer profile">
 
 ![Visitors](https://komarev.com/ghpvc/?username=Ismail-Rhoulam&label=VISITORS&color=58A6FF&style=for-the-badge)
 
