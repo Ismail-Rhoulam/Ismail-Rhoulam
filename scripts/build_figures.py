@@ -244,8 +244,8 @@ def header(t):
     W, H = 1000, 250
     cx = W / 2
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{SERIF}" role="img" aria-labelledby="t">
-  <title id="t">Ismail Rhoulam. PhD student in Marketing Science, LARMODADD, FSJES Souissi, Mohammed V University in Rabat.</title>
-  <text x="{cx}" y="96" text-anchor="middle" font-size="68" fill="{t['ink']}" letter-spacing="1">Ismail Rhoulam</text>
+  <title id="t">Ismail RHOULAM. PhD student in Marketing Science, LARMODADD, FSJES Souissi, Mohammed V University in Rabat.</title>
+  <text x="{cx}" y="96" text-anchor="middle" font-size="68" fill="{t['ink']}" letter-spacing="1">Ismail RHOULAM</text>
   <text x="{cx}" y="152" text-anchor="middle" font-size="17" letter-spacing="3.2" fill="{t['blue']}">PHD STUDENT · MARKETING SCIENCE</text>
   <text x="{cx}" y="198" text-anchor="middle" font-size="21" font-style="italic" fill="{t['soft']}">LARMODADD · FSJES Souissi · Mohammed V University in Rabat</text>
 </svg>

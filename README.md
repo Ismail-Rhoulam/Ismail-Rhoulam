@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-    <img src="./assets/header-light.svg" width="760" alt="Ismail Rhoulam. PhD student in Marketing Science, LARMODADD, FSJES Souissi, Mohammed V University in Rabat.">
+    <img src="./assets/header-light.svg" width="760" alt="Ismail RHOULAM. PhD student in Marketing Science, LARMODADD, FSJES Souissi, Mohammed V University in Rabat.">
   </picture>
 </p>
 
