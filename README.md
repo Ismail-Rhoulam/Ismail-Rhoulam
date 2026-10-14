@@ -1,15 +1,25 @@
-# Ismail Rhoulam
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+    <img src="./assets/header-light.svg" width="760" alt="Ismail Rhoulam. PhD student in Marketing Science, LARMODADD, FSJES Souissi, Mohammed V University in Rabat.">
+  </picture>
+</p>
 
-PhD student in Marketing Science at Mohammed V University in Rabat (LARMODADD, FSJES Souissi).
+<p align="center">
+  <a href="mailto:ismail.rhoulam@um5r.ac.ma">Email</a> &nbsp;·&nbsp;
+  <a href="https://orcid.org/0009-0007-1800-237X">ORCID</a> &nbsp;·&nbsp;
+  <a href="https://scholar.google.com/citations?hl=en&user=BsJc3JQAAAAJ">Google Scholar</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/ismail-rhoulam/">LinkedIn</a>
+</p>
 
-My research is on **experiment-calibrated marketing measurement**. Marketing mix models are cheap to run but easy to fool; randomized experiments are reliable but narrow and expensive. I work on combining the two, so that budget decisions rest on causal evidence.
+> **Abstract.** Marketing mix models are cheap to run but easy to fool. Randomized experiments are reliable but narrow and expensive. My research, on *experiment-calibrated marketing measurement*, combines the two so that budget decisions rest on causal evidence.
+>
+> **Keywords:** transportability · adaptive experimentation · risk-aware budget allocation · marketing mix models · causal inference
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/figure1-dark.svg">
-  <img src="./assets/figure1-light.svg" width="760" alt="Figure 1. A wide model prior on channel ROI, a lift test estimate with its 95% interval, and the narrower calibrated posterior.">
+  <img src="./assets/figure1-light.svg" width="760" alt="Figure 1 (illustrative). A wide model prior on channel ROI, a lift test estimate with its 95% interval, and the narrower calibrated posterior.">
 </picture>
-
-<sub><i>Figure 1 (illustrative). A lift test pulls an uncertain model estimate of channel ROI toward the experimental result.</i></sub>
 
 ## Research questions
 
@@ -21,15 +31,25 @@ My research is on **experiment-calibrated marketing measurement**. Marketing mix
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/figure2-dark.svg">
-  <img src="./assets/figure2-light.svg" width="100%" alt="Figure 2. (a) Selection diagram with node S marking what differs between markets. (b) Traffic share per arm across rounds, concentrating on the best arm. (c) Return distribution with the lower tail shaded.">
+  <img src="./assets/figure2-light.svg" width="100%" alt="Figure 2 (illustrative). Selection diagram with node S marking what differs between markets; traffic share per arm across rounds, concentrating on the best arm; return distribution with the lower tail shaded.">
 </picture>
-
-<sub><i>Figure 2 (illustrative). (a) A selection diagram: S marks what differs between the source and target market. (b) Traffic moving toward the best arm over rounds. (c) The lower tail of returns that a risk-aware allocation guards against.</i></sub>
 
 ## Education
 
-Master's degree, Marketing Management Digital et Commerce Électronique, FSJES Souissi, Mohammed V University in Rabat, 2024–2026<br>
-Bachelor's degree, Marketing Management Digital et Commerce Électronique, FSJES Souissi, Mohammed V University in Rabat, 2023–2024
+<table>
+  <tr>
+    <td width="130"><b>2026–present</b></td>
+    <td><b>PhD</b>, Economics &amp; Management (Marketing Science)<br><sub>LARMODADD, FSJES Souissi, Mohammed V University in Rabat</sub></td>
+  </tr>
+  <tr>
+    <td><b>2024–2026</b></td>
+    <td><b>Master's degree</b>, Marketing Management Digital et Commerce Électronique<br><sub>FSJES Souissi, Mohammed V University in Rabat</sub></td>
+  </tr>
+  <tr>
+    <td><b>2023–2024</b></td>
+    <td><b>Bachelor's degree</b>, Marketing Management Digital et Commerce Électronique<br><sub>FSJES Souissi, Mohammed V University in Rabat</sub></td>
+  </tr>
+</table>
 
 ## Research stack
 
@@ -48,7 +68,3 @@ Bachelor's degree, Marketing Management Digital et Commerce Électronique, FSJES
 ## Code
 
 Code for papers and ongoing projects will be posted here as it becomes public.
-
-## Contact
-
-[ismail.rhoulam@um5r.ac.ma](mailto:ismail.rhoulam@um5r.ac.ma) · [ORCID](https://orcid.org/0009-0007-1800-237X) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=BsJc3JQAAAAJ) · [LinkedIn](https://www.linkedin.com/in/ismail-rhoulam/)

@@ -147,7 +147,7 @@ def figure2(t):
     top, bot = 30, 300
     parts = []
 
-    # (a) selection diagram: S marks the factor that differs between source and target.
+    # Left panel, selection diagram: S marks the factor that differs between source and target.
     ax = px[0]
     nodes = {"Z": (ax + 60, 210), "X": (ax + 170, 110), "Y": (ax + 290, 210)}
     edges = [("Z", "X"), ("X", "Y"), ("Z", "Y")]
@@ -171,7 +171,7 @@ def figure2(t):
     a.append(f'<line x1="{sx}" y1="{sy+20}" x2="{sx}" y2="{nodes["Z"][1]-r-3}" stroke="{t["orange"]}" stroke-width="1.8" marker-end="url(#arrS)" class="flow"/>')
     parts.append("\n  ".join(a))
 
-    # (b) adaptive allocation: share of traffic per arm across rounds.
+    # Middle panel, adaptive allocation: share of traffic per arm across rounds.
     bx0, bx1 = px[1] + 40, px[1] + pw
     rounds = 10
 
@@ -195,7 +195,7 @@ def figure2(t):
         b.append(f'<text x="{pts[-1][0]+8:.1f}" y="{pts[-1][1]+6:.1f}" font-size="18" font-style="italic" fill="{cols[arm]}" class="late">{arm}</text>')
     parts.append("\n  ".join(b))
 
-    # (c) return distribution with the lower tail (CVaR) shaded.
+    # Right panel, return distribution with the lower tail (CVaR) shaded.
     cx0, cx1 = px[2] + 40, px[2] + pw
     m, s = 0.55, 0.17
     q = m - 1.2816 * s
@@ -222,14 +222,14 @@ def figure2(t):
     c.append(f'<text x="{CX(q)-46:.1f}" y="{bot-58}" text-anchor="middle" font-size="18" fill="{t["orange"]}" class="late">CVaR</text>')
     parts.append("\n  ".join(c))
 
-    caps = ["(a) Transportability", "(b) Adaptive experimentation", "(c) Risk-aware allocation"]
+    caps = ["Transportability", "Adaptive experimentation", "Risk-aware allocation"]
     cap_x = [px[0] + pw / 2, px[1] + 40 + (pw - 40) / 2, px[2] + 40 + (pw - 40) / 2]
     captions = "\n  ".join(
         f'<text x="{x:.1f}" y="{H-14}" text-anchor="middle" font-size="20" fill="{t["ink"]}">{c_}</text>' for x, c_ in zip(cap_x, caps)
     )
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{SERIF}" role="img" aria-labelledby="t d">
   <title id="t">Figure 2. Research questions</title>
-  <desc id="d">(a) A selection diagram where node S marks the factor that differs between the source and target markets. (b) Share of traffic per arm across rounds of an adaptive experiment, concentrating on the best arm. (c) A distribution of returns with the lower tail shaded, showing value at risk and conditional value at risk.</desc>
+  <desc id="d">Left, a selection diagram where node S marks the factor that differs between the source and target markets. Middle, share of traffic per arm across rounds of an adaptive experiment, concentrating on the best arm. Right, a distribution of returns with the lower tail shaded, showing value at risk and conditional value at risk.</desc>
   {STYLE}
   {parts[0]}
   {parts[1]}
@@ -239,8 +239,23 @@ def figure2(t):
 """
 
 
+# ---------------------------------------------------------------- title block
+def header(t):
+    W, H = 1000, 250
+    cx = W / 2
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{SERIF}" role="img" aria-labelledby="t">
+  <title id="t">Ismail Rhoulam. PhD student in Marketing Science, LARMODADD, FSJES Souissi, Mohammed V University in Rabat.</title>
+  <text x="{cx}" y="96" text-anchor="middle" font-size="68" fill="{t['ink']}" letter-spacing="1">Ismail Rhoulam</text>
+  <line x1="{cx-330}" y1="146" x2="{cx-196}" y2="146" stroke="{t['faint']}" stroke-width="1.2"/>
+  <line x1="{cx+196}" y1="146" x2="{cx+330}" y2="146" stroke="{t['faint']}" stroke-width="1.2"/>
+  <text x="{cx}" y="152" text-anchor="middle" font-size="17" letter-spacing="3.2" fill="{t['blue']}">PHD STUDENT · MARKETING SCIENCE</text>
+  <text x="{cx}" y="198" text-anchor="middle" font-size="21" font-style="italic" fill="{t['soft']}">LARMODADD · FSJES Souissi · Mohammed V University in Rabat</text>
+</svg>
+"""
+
+
 for name, t in THEMES.items():
-    for stem, fn in [("figure1", figure1), ("figure2", figure2)]:
+    for stem, fn in [("header", header), ("figure1", figure1), ("figure2", figure2)]:
         with open(os.path.join(OUT, f"{stem}-{name}.svg"), "w") as f:
             f.write(fn(t))
 print("ok", sorted(os.listdir(OUT)))
