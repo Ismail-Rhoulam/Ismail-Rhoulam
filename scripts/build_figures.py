@@ -246,8 +246,6 @@ def header(t):
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{SERIF}" role="img" aria-labelledby="t">
   <title id="t">Ismail Rhoulam. PhD student in Marketing Science, LARMODADD, FSJES Souissi, Mohammed V University in Rabat.</title>
   <text x="{cx}" y="96" text-anchor="middle" font-size="68" fill="{t['ink']}" letter-spacing="1">Ismail Rhoulam</text>
-  <line x1="{cx-330}" y1="146" x2="{cx-196}" y2="146" stroke="{t['faint']}" stroke-width="1.2"/>
-  <line x1="{cx+196}" y1="146" x2="{cx+330}" y2="146" stroke="{t['faint']}" stroke-width="1.2"/>
   <text x="{cx}" y="152" text-anchor="middle" font-size="17" letter-spacing="3.2" fill="{t['blue']}">PHD STUDENT · MARKETING SCIENCE</text>
   <text x="{cx}" y="198" text-anchor="middle" font-size="21" font-style="italic" fill="{t['soft']}">LARMODADD · FSJES Souissi · Mohammed V University in Rabat</text>
 </svg>
